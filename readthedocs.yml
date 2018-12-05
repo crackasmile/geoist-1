@@ -1,0 +1,8 @@
+formats: []
+requirements_file: .readthedocs_requirements.txt
+build:
+  image: latest
+python:
+  version: 3.6
+  use_system_site_packages: true
+  setup_py_install: true
